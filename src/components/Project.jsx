@@ -7,7 +7,7 @@ import Link from "@mui/material/Link";
 import ecommerce from "../assets/E-Commerce.png";
 import airbnb from "../assets/airbnb.png";
 import cal from "../assets/cal.png";
-// import Certificate from "./Certificate";
+import Certificate from "./Certificate";
 
 function Project() {
   return (
@@ -79,7 +79,7 @@ function Project() {
                 <Link
                   href="https://ecommerce-project-mern.vercel.app/"
                   sx={{ mr: "1.5rem", fontSize: "2.5rem" }}
-                  target="_blank"
+                  target="blank"
                 >
                   <i
                     className="fa-solid fa-link"
@@ -90,7 +90,7 @@ function Project() {
                 <Link
                   href="https://github.com/eurekaMarch/Ecommerce_Project-MERN"
                   sx={{ fontSize: "2.5rem" }}
-                  target="_blank"
+                  target="blank"
                 >
                   <i
                     className="fa-brands fa-github"
@@ -164,7 +164,7 @@ function Project() {
                 <Link
                   href="https://airbnb-clone-gamma-umber.vercel.app/"
                   sx={{ mr: "1.5rem", fontSize: "2.5rem" }}
-                  target="_blank"
+                  target="blank"
                 >
                   <i
                     className="fa-solid fa-link"
@@ -175,7 +175,7 @@ function Project() {
                 <Link
                   href="https://github.com/eurekaMarch/Airbnb-Website_Clone"
                   sx={{ fontSize: "2.5rem" }}
-                  target="_blank"
+                  target="blank"
                 >
                   <i
                     className="fa-brands fa-github"
@@ -249,7 +249,7 @@ function Project() {
                 <Link
                   href="https://calculator-dom-chi.vercel.app/"
                   sx={{ mr: "1.5rem", fontSize: "2.5rem" }}
-                  target="_blank"
+                  target="blank"
                 >
                   <i
                     className="fa-solid fa-link"
@@ -260,7 +260,7 @@ function Project() {
                 <Link
                   href="https://github.com/eurekaMarch/Calculator-HTML_CSS_JavaScript"
                   sx={{ fontSize: "2.5rem" }}
-                  target="_blank"
+                  target="blank"
                 >
                   <i
                     className="fa-brands fa-github"
@@ -273,7 +273,7 @@ function Project() {
         </Paper>
       </Box>
 
-      {/* <Certificate /> */}
+      <Certificate />
     </Box>
   );
 }
