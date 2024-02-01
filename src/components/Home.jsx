@@ -94,42 +94,48 @@ function Home() {
             component="img"
             image={html}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={css}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={java}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={vite}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={react}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={node}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
         </Box>
@@ -139,42 +145,48 @@ function Home() {
             component="img"
             image={ex}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={mongo}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={sql}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={postman}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={mui}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
           <CardMedia
             component="img"
             image={git}
             sx={{
-              width: "6rem",
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
         </Box>

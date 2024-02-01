@@ -23,7 +23,7 @@ function Project() {
           elevation={5}
           sx={{
             display: "flex",
-            width: "60%",
+            maxWidth: "60%",
             bgcolor: "transparent",
           }}
         >
@@ -116,7 +116,7 @@ function Project() {
             component="img"
             image={airbnb}
             sx={{
-              width: "35rem",
+              maxWidth: "35rem",
               height: "25rem",
               py: "1rem",
               pl: "2rem",
@@ -201,7 +201,7 @@ function Project() {
             component="img"
             image={cal}
             sx={{
-              width: "35rem",
+              maxWidth: "35rem",
               height: "25rem",
               py: "1rem",
               pl: "2rem",
