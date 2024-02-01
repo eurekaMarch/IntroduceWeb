@@ -2,3 +2,7 @@ a {
   text-decoration: none;
   color: black;
 }
+
+.swiper {
+  height: 32rem;
+}

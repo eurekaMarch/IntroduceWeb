@@ -4,7 +4,7 @@ import Divider from "@mui/material/Divider";
 
 function Header() {
   return (
-    <Box>
+    <Box sx={{ position: "sticky", top: 0 }}>
       <Box
         sx={{
           display: "flex",

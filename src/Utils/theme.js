@@ -8,6 +8,11 @@ const theme = createTheme({
       dark: grey[900],
       contrastText: "#fff",
     },
+    green: {
+      main: "#1CB803",
+      // dark: "#19a502",
+      contrastText: "#fff",
+    },
   },
   typography: {
     fontFamily: "Poppins, sans-serif",
