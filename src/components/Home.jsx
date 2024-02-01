@@ -10,8 +10,10 @@ function Home() {
       sx={{
         display: "flex",
         justifyContent: "space-between",
+        alignItems: "center",
         mx: "8rem",
-        mt: "2rem",
+        mt: "5rem",
+        mb: "2rem",
       }}
     >
       <Box>
@@ -25,16 +27,35 @@ function Home() {
           Trairat <br /> Kaewsaad
         </Typography>
 
-        <Typography
-          sx={{
-            color: "#8C8E8E",
-            mt: "1rem",
-            fontSize: "2.5rem",
-            fontWeight: 600,
-          }}
-        >
-          Full-Stack Developer
-        </Typography>
+        <Box sx={{ width: "81%" }}>
+          <Typography
+            sx={{
+              color: "#8C8E8E",
+              mt: "1rem",
+              fontSize: "2.5rem",
+              fontWeight: 600,
+            }}
+          >
+            Full-Stack Developer
+          </Typography>
+
+          <Typography
+            sx={{
+              textAlign: "justify",
+              textIndent: 50,
+              color: "#8C8E8E",
+              fontSize: "1.4rem",
+            }}
+          >
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Praesentium adipisci sequi dolorum at voluptate eius? Asperiores ad
+            laudantium quae eius consectetur quaerat esse quia ipsam cupiditate
+            in repudiandae cumque excepturi delectus illum sit libero, culpa
+            reiciendis incidunt minima necessitatibus, voluptatem sint eos
+            perspiciatis! Inventore ab necessitatibus iste quis. Molestiae,
+            molestias!
+          </Typography>
+        </Box>
       </Box>
 
       <CardMedia
@@ -43,8 +64,7 @@ function Home() {
         sx={{
           width: "24rem",
           height: "35rem",
-          mt: "3rem",
-          borderRadius: "0.8rem",
+          borderRadius: "0.5rem",
         }}
       />
     </Box>
