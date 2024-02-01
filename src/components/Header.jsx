@@ -15,8 +15,8 @@ function Header() {
       <Box
         sx={{
           display: "flex",
-          justifyContent: { xs: "center", sm: "center", md: "end" },
-          pr: { xs: 0, sm: 0, md: "12rem" },
+          justifyContent: { xs: "center", md: "end" },
+          pr: { xs: 0, md: "12rem" },
           pt: "2rem",
           pb: "1rem",
           fontSize: "1.2rem",

@@ -23,7 +23,7 @@ function Project() {
           elevation={5}
           sx={{
             display: "flex",
-            maxWidth: "60%",
+            width: "60%",
             bgcolor: "transparent",
           }}
         >
@@ -31,10 +31,11 @@ function Project() {
             component="img"
             image={ecommerce}
             sx={{
-              width: "35rem",
+              maxWidth: "35rem",
               height: "25rem",
               py: "1rem",
               pl: "2rem",
+              objectFit: "contain",
             }}
           />
 
@@ -120,6 +121,7 @@ function Project() {
               height: "25rem",
               py: "1rem",
               pl: "2rem",
+              objectFit: "contain",
             }}
           />
 
@@ -205,6 +207,7 @@ function Project() {
               height: "25rem",
               py: "1rem",
               pl: "2rem",
+              objectFit: "contain",
             }}
           />
 
