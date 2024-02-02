@@ -110,7 +110,6 @@ function Home() {
       <Box sx={{ mt: "10rem" }}>
         <Typography
           sx={{
-            ml: "3rem",
             mb: "3rem",
             fontSize: { xs: "2rem", sm: "2.5rem", md: "3rem" },
             fontWeight: "bold",
