@@ -16,7 +16,7 @@ function About() {
       >
         ABOUT ME
       </Typography>
-      {/* <Box sx={{ mx: "3rem", display: "flex", justifyContent: "space-around" }}> */}
+
       <Grid container xs={12} sm={12} md={12}>
         <Grid
           xs={3}
@@ -113,8 +113,6 @@ function About() {
           </a>
         </Grid>
       </Grid>
-
-      {/* </Box> */}
     </Box>
   );
 }
