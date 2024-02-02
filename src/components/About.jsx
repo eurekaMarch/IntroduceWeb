@@ -6,7 +6,12 @@ function About() {
   return (
     <Box id="About" sx={{ pt: "10rem", mb: "5rem" }}>
       <Typography
-        sx={{ ml: "3rem", mb: "3rem", fontSize: "3rem", fontWeight: "bold" }}
+        sx={{
+          ml: "3rem",
+          mb: "3rem",
+          fontSize: { xs: "2rem", sm: "2.5rem", md: "3rem" },
+          fontWeight: "bold",
+        }}
       >
         ABOUT ME
       </Typography>

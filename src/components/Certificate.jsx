@@ -17,7 +17,12 @@ function Certificate() {
   return (
     <Box sx={{ pt: "10rem" }}>
       <Typography
-        sx={{ ml: "3rem", mb: "3rem", fontSize: "3rem", fontWeight: "bold" }}
+        sx={{
+          ml: "3rem",
+          mb: "3rem",
+          fontSize: { xs: "2rem", sm: "2.5rem", md: "3rem" },
+          fontWeight: "bold",
+        }}
       >
         CERTIFICATES
       </Typography>
@@ -25,7 +30,11 @@ function Certificate() {
       <Box sx={{ mx: "3rem" }}>
         <Swiper
           spaceBetween={40}
-          slidesPerView={3}
+          breakpoints={{
+            0: { slidesPerView: 1 },
+            600: { slidesPerView: 2 },
+            900: { slidesPerView: 3 },
+          }}
           modules={[Pagination, A11y]}
           pagination={{ clickable: true }}
         >
