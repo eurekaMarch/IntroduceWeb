@@ -24,7 +24,10 @@ function About() {
           md={3}
           sx={{ px: { xs: "0.5rem", sm: "2rem", md: "3rem" } }}
         >
-          <a href="">
+          <a
+            href="https://drive.google.com/file/d/1H4TOh6rmHTou4hAh1i-OTNhUSb67tZkI/view?usp=drive_link"
+            target="blank"
+          >
             <Button
               variant="contained"
               color="green"
