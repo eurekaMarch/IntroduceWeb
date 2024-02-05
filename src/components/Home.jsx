@@ -72,9 +72,9 @@ function Home() {
                   fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                 }}
               >
-                I&apos;m changing my career path and am{" "}
+                I&apos;m transitioning to a new career path driven by my{" "}
                 <Typography sx={{ color: "#1CB803", display: "inline" }}>
-                  passionate about coding
+                  passion for coding
                 </Typography>
                 . In 2023, I embarked on my coding journey at WeStride Thailand
                 Bootcamp with the goal of becoming a Junior Software Developer.
