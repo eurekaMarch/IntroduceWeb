@@ -34,7 +34,6 @@ function Home() {
             image={profile}
             sx={{
               maxWidth: "20rem",
-              borderRadius: "0.5rem",
               objectFit: "contain",
               mb: "2rem",
             }}
@@ -105,7 +104,6 @@ function Home() {
             image={profile}
             sx={{
               maxWidth: "24rem",
-              borderRadius: "0.5rem",
               objectFit: "contain",
               pl: "1rem",
             }}
