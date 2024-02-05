@@ -59,7 +59,6 @@ function Project() {
                     py: "1rem",
                     pl: "2rem",
                     pr: { xs: "2rem", md: 0 },
-
                     objectFit: "contain",
                   }}
                 />
@@ -186,7 +185,6 @@ function Project() {
                     py: "1rem",
                     pl: "2rem",
                     pr: { xs: "2rem", md: 0 },
-
                     objectFit: "contain",
                   }}
                 />
@@ -313,7 +311,6 @@ function Project() {
                     py: "1rem",
                     pl: "2rem",
                     pr: { xs: "2rem", md: 0 },
-
                     objectFit: "contain",
                   }}
                 />

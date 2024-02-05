@@ -73,13 +73,18 @@ function Home() {
                   fontSize: { xs: "1rem", sm: "1.2rem", md: "1.4rem" },
                 }}
               >
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Praesentium adipisci sequi dolorum at voluptate eius? Asperiores
-                ad laudantium quae eius consectetur quaerat esse quia ipsam
-                cupiditate in repudiandae cumque excepturi delectus illum sit
-                libero, culpa reiciendis incidunt minima necessitatibus,
-                voluptatem sint eos perspiciatis! Inventore ab necessitatibus
-                iste quis. Molestiae, molestias!
+                I&apos;m changing my career path and am{" "}
+                <Typography sx={{ color: "#1CB803", display: "inline" }}>
+                  passionate about coding
+                </Typography>
+                . In 2023, I embarked on my coding journey at WeStride Thailand
+                Bootcamp with the goal of becoming a Junior Software Developer.
+                This journey is ongoing, and I&apos;m committed to further
+                improving my skills to become a{" "}
+                <Typography sx={{ color: "#1CB803", display: "inline" }}>
+                  proficient software developer
+                </Typography>{" "}
+                in the future.
               </Typography>
             </Box>
           </Box>
@@ -102,6 +107,7 @@ function Home() {
               maxWidth: "24rem",
               borderRadius: "0.5rem",
               objectFit: "contain",
+              pl: "1rem",
             }}
           />
         </Grid>
