@@ -15,7 +15,7 @@ import sql from "../assets/skill-icons--postgresql-dark.svg";
 import postman from "../assets/skill-icons--postman.svg";
 import mui from "../assets/skill-icons--materialui-dark.svg";
 import git from "../assets/skill-icons--github-dark.svg";
-
+import vue from "../assets/skill-icons--vuejs-dark.svg";
 function Home() {
   return (
     <Box id="Home" sx={{ mx: "3rem", pt: "6rem" }}>
@@ -159,12 +159,21 @@ function Home() {
           />
           <CardMedia
             component="img"
+            image={vue}
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
+          <CardMedia
+            component="img"
             image={react}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
+
           <CardMedia
             component="img"
             image={node}
