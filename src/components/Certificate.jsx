@@ -13,6 +13,15 @@ import cerE from "../assets/Certificate for E.png";
 import cerF from "../assets/Certificate for F.png";
 import cerG from "../assets/Certificate for G.png";
 
+const data = [
+  { image: cerB },
+  { image: cerC },
+  { image: cerD },
+  { image: cerE },
+  { image: cerF },
+  { image: cerG },
+];
+
 function Certificate() {
   return (
     <Box sx={{ pt: "10rem" }}>
@@ -40,41 +49,15 @@ function Certificate() {
           loop={true}
           grabCursor={true}
         >
-          <SwiperSlide>
-            <Paper elevation={5}>
-              <CardMedia component="img" image={cerB} />
-            </Paper>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Paper elevation={5}>
-              <CardMedia component="img" image={cerC} />
-            </Paper>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Paper elevation={5}>
-              <CardMedia component="img" image={cerD} />
-            </Paper>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Paper elevation={5}>
-              <CardMedia component="img" image={cerE} />
-            </Paper>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Paper elevation={5}>
-              <CardMedia component="img" image={cerF} />
-            </Paper>
-          </SwiperSlide>
-
-          <SwiperSlide>
-            <Paper elevation={5}>
-              <CardMedia component="img" image={cerG} />
-            </Paper>
-          </SwiperSlide>
+          {data.map((item, index) => {
+            return (
+              <SwiperSlide key={index}>
+                <Paper elevation={5}>
+                  <CardMedia component="img" image={item.image} />
+                </Paper>
+              </SwiperSlide>
+            );
+          })}
         </Swiper>
       </Box>
     </Box>
