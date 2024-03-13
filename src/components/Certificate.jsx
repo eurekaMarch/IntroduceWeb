@@ -35,7 +35,7 @@ function Certificate() {
             600: { slidesPerView: 2 },
             900: { slidesPerView: 3 },
           }}
-          modules={[Pagination, A11y]}
+          modules={[Pagination]}
           pagination={{ clickable: true }}
           loop={true}
           grabCursor={true}
