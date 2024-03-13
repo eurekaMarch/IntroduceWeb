@@ -37,6 +37,8 @@ function Certificate() {
           }}
           modules={[Pagination, A11y]}
           pagination={{ clickable: true }}
+          loop={true}
+          grabCursor={true}
         >
           <SwiperSlide>
             <Paper elevation={5}>
