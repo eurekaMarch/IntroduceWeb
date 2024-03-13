@@ -14,7 +14,6 @@ import mongo from "../assets/skill-icons--mongodb.svg";
 import sql from "../assets/skill-icons--postgresql-dark.svg";
 import postman from "../assets/skill-icons--postman.svg";
 import mui from "../assets/skill-icons--materialui-dark.svg";
-import git from "../assets/skill-icons--github-dark.svg";
 import vue from "../assets/skill-icons--vuejs-dark.svg";
 function Home() {
   return (
@@ -173,7 +172,9 @@ function Home() {
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
+        </Box>
 
+        <Box sx={{ display: "flex", justifyContent: "space-around" }}>
           <CardMedia
             component="img"
             image={node}
@@ -182,9 +183,6 @@ function Home() {
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
-        </Box>
-
-        <Box sx={{ display: "flex", justifyContent: "space-around" }}>
           <CardMedia
             component="img"
             image={ex}
@@ -220,14 +218,6 @@ function Home() {
           <CardMedia
             component="img"
             image={mui}
-            sx={{
-              width: { xs: "4rem", sm: "5rem", md: "6rem" },
-              height: { xs: "4rem", sm: "5rem", md: "6rem" },
-            }}
-          />
-          <CardMedia
-            component="img"
-            image={git}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
