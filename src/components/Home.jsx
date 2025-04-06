@@ -14,7 +14,9 @@ import mongo from "../assets/skill-icons--mongodb.svg";
 import sql from "../assets/skill-icons--postgresql-dark.svg";
 import postman from "../assets/skill-icons--postman.svg";
 import mui from "../assets/skill-icons--materialui-dark.svg";
-import vue from "../assets/skill-icons--vuejs-dark.svg";
+// import vue from "../assets/skill-icons--vuejs-dark.svg";
+import next from "../assets/skill-icons--nextjs-dark.svg";
+import tailwind from "../assets/skill-icons--tailwindcss-dark.svg";
 function Home() {
   return (
     <Box id="Home" sx={{ mx: "3rem", pt: "6rem" }}>
@@ -122,7 +124,12 @@ function Home() {
         </Typography>
 
         <Box
-          sx={{ display: "flex", justifyContent: "space-around", pb: "3rem" }}
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            pb: "3rem",
+            mx: "4rem",
+          }}
         >
           <CardMedia
             component="img"
@@ -158,7 +165,7 @@ function Home() {
           />
           <CardMedia
             component="img"
-            image={vue}
+            image={next}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
@@ -174,7 +181,14 @@ function Home() {
           />
         </Box>
 
-        <Box sx={{ display: "flex", justifyContent: "space-around" }}>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            pb: "3rem",
+            mx: "4rem",
+          }}
+        >
           <CardMedia
             component="img"
             image={node}
@@ -218,6 +232,19 @@ function Home() {
           <CardMedia
             component="img"
             image={mui}
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
+        </Box>
+
+        <Box
+          sx={{ display: "flex", justifyContent: "space-between", mx: "4rem" }}
+        >
+          <CardMedia
+            component="img"
+            image={tailwind}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
