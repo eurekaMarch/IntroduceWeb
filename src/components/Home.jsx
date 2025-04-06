@@ -128,7 +128,7 @@ function Home() {
             display: "flex",
             justifyContent: "space-between",
             pb: "3rem",
-            mx: "4rem",
+            mx: { xs: "2rem", sm: "2rem", md: "4rem" },
           }}
         >
           <CardMedia
@@ -186,7 +186,7 @@ function Home() {
             display: "flex",
             justifyContent: "space-between",
             pb: "3rem",
-            mx: "4rem",
+            mx: { xs: "2rem", sm: "2rem", md: "4rem" },
           }}
         >
           <CardMedia
@@ -240,7 +240,11 @@ function Home() {
         </Box>
 
         <Box
-          sx={{ display: "flex", justifyContent: "space-between", mx: "4rem" }}
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            mx: { xs: "2rem", sm: "2rem", md: "4rem" },
+          }}
         >
           <CardMedia
             component="img"
