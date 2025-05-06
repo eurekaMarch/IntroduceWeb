@@ -62,7 +62,7 @@ function Home() {
                   fontWeight: 600,
                 }}
               >
-                Full-Stack Developer
+                Front-End Developer
               </Typography>
 
               <Typography
