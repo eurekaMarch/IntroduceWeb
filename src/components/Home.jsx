@@ -264,6 +264,30 @@ function Home() {
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
+          <CardMedia
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
+          <CardMedia
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
+          <CardMedia
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
+          <CardMedia
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
         </Box>
       </Box>
     </Box>
