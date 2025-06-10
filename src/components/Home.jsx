@@ -181,14 +181,6 @@ function Home() {
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
-          <CardMedia
-            component="img"
-            image={react}
-            sx={{
-              width: { xs: "4rem", sm: "5rem", md: "6rem" },
-              height: { xs: "4rem", sm: "5rem", md: "6rem" },
-            }}
-          />
         </Box>
 
         <Box
@@ -199,6 +191,14 @@ function Home() {
             mx: { xs: "2rem", sm: "2rem", md: "4rem" },
           }}
         >
+          <CardMedia
+            component="img"
+            image={react}
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
           <CardMedia
             component="img"
             image={node}
@@ -239,14 +239,6 @@ function Home() {
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
-          <CardMedia
-            component="img"
-            image={mui}
-            sx={{
-              width: { xs: "4rem", sm: "5rem", md: "6rem" },
-              height: { xs: "4rem", sm: "5rem", md: "6rem" },
-            }}
-          />
         </Box>
 
         <Box
@@ -256,6 +248,14 @@ function Home() {
             mx: { xs: "2rem", sm: "2rem", md: "4rem" },
           }}
         >
+          <CardMedia
+            component="img"
+            image={mui}
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
           <CardMedia
             component="img"
             image={tailwind}

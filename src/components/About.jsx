@@ -25,7 +25,7 @@ function About() {
           sx={{ px: { xs: "0.5rem", sm: "2rem", md: "3rem" } }}
         >
           <a
-            href="https://drive.google.com/file/d/1681UdMoqFfc2HlbmJkVkQ6tDLhwIEftA/view?usp=sharing"
+            href="https://drive.google.com/file/d/1oQZAlIdAqry_AgxTHw7R3c5_k4ukE0Vq/view?usp=sharing"
             target="blank"
           >
             <Button
