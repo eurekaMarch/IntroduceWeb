@@ -14,7 +14,7 @@ import mongo from "../assets/skill-icons--mongodb.svg";
 import sql from "../assets/skill-icons--postgresql-dark.svg";
 import postman from "../assets/skill-icons--postman.svg";
 import mui from "../assets/skill-icons--materialui-dark.svg";
-// import vue from "../assets/skill-icons--vuejs-dark.svg";
+import vue from "../assets/skill-icons--vuejs-dark.svg";
 import next from "../assets/skill-icons--nextjs-dark.svg";
 import tailwind from "../assets/skill-icons--tailwindcss-dark.svg";
 import typescript from "../assets/skill-icons--typescript.svg";
@@ -193,6 +193,14 @@ function Home() {
         >
           <CardMedia
             component="img"
+            image={vue}
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
+          <CardMedia
+            component="img"
             image={react}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
@@ -231,14 +239,6 @@ function Home() {
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
             }}
           />
-          <CardMedia
-            component="img"
-            image={postman}
-            sx={{
-              width: { xs: "4rem", sm: "5rem", md: "6rem" },
-              height: { xs: "4rem", sm: "5rem", md: "6rem" },
-            }}
-          />
         </Box>
 
         <Box
@@ -248,6 +248,14 @@ function Home() {
             mx: { xs: "2rem", sm: "2rem", md: "4rem" },
           }}
         >
+          <CardMedia
+            component="img"
+            image={postman}
+            sx={{
+              width: { xs: "4rem", sm: "5rem", md: "6rem" },
+              height: { xs: "4rem", sm: "5rem", md: "6rem" },
+            }}
+          />
           <CardMedia
             component="img"
             image={mui}
