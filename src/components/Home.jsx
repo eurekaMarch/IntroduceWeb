@@ -167,7 +167,7 @@ function Home() {
           />
           <CardMedia
             component="img"
-            image={vite}
+            image={react}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
@@ -175,7 +175,7 @@ function Home() {
           />
           <CardMedia
             component="img"
-            image={next}
+            image={vite}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
@@ -193,7 +193,7 @@ function Home() {
         >
           <CardMedia
             component="img"
-            image={vue}
+            image={next}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
@@ -201,7 +201,7 @@ function Home() {
           />
           <CardMedia
             component="img"
-            image={react}
+            image={vue}
             sx={{
               width: { xs: "4rem", sm: "5rem", md: "6rem" },
               height: { xs: "4rem", sm: "5rem", md: "6rem" },
